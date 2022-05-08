@@ -98,7 +98,7 @@
   bottom: 6px;
 }
 
-@media (max-width: 23.5rem) {
+@media (max-width: 24.5rem) {
   .container h1 {
     font-size: 0.875rem;
   }

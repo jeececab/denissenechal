@@ -45,11 +45,11 @@ export default function Header() {
             >
               <Link href="/corporatif">Corporatif</Link>
               <ul>
-                <li>
-                  <Link href="/corporatif/serveur-gaffeur">Serveur gaffeur</Link>
-                </li>
-                <li>
+                <li onClick={close} className={router.pathname === '/corporatif/faux-policier' ? styles.active : ''}>
                   <Link href="/corporatif/faux-policier">Faux policier</Link>
+                </li>
+                <li onClick={close} className={router.pathname === '/corporatif/serveur-gaffeur' ? styles.active : ''}>
+                  <Link href="/corporatif/serveur-gaffeur">Serveur gaffeur</Link>
                 </li>
                 <li></li>
               </ul>
