@@ -1,8 +1,10 @@
 .container {
+  background-color: var(--light);
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 1000;
 }
 
 .content {
@@ -12,23 +14,30 @@
   align-items: center;
   justify-content: space-between;
   padding-left: 1rem;
+  /* border-bottom: 2px solid var(--dark);
+  border-left: 2px solid var(--dark);
+  border-right: 2px solid var(--dark); */
 }
 
-.container span {
+.container h1 {
   color: var(--dark);
   text-transform: uppercase;
   padding: 0.9rem 0;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: normal;
 }
 
 .menu {
-  position: fixed;
+  background-color: var(--light);
+  position: absolute;
   top: 0;
   right: -100vw;
   width: 100%;
-  background-color: var(--light);
   padding: 2.5rem 0 1.5rem;
   box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%);
   transition: right 250ms;
+  z-index: 100;
 }
 
 .menu.opened {
@@ -49,7 +58,13 @@
   padding: 0.9rem 0;
 }
 
-.menu li:hover,
+.menuDropdown ul a {
+  font-size: 0.875rem;
+  text-align: left;
+  padding-left: calc(50% - 1rem);
+}
+
+.menu a:hover,
 .active {
   background-color: var(--dark);
   color: var(--light);
@@ -58,7 +73,7 @@
 .hamburger {
   cursor: pointer;
   width: 2.5rem;
-  z-index: 1;
+  z-index: 101;
 }
 
 .hamburger div {
@@ -83,6 +98,12 @@
   bottom: 6px;
 }
 
+@media (max-width: 23.5rem) {
+  .container h1 {
+    font-size: 0.875rem;
+  }
+}
+
 @media (min-width: 54rem) {
   .menu {
     position: unset;
@@ -97,6 +118,30 @@
 
   .menu a {
     width: 8rem;
+  }
+
+  .menuDropdown ul a {
+    width: 9rem;
+    text-align: center;
+    margin-left: auto;
+    padding-left: 0;
+  }
+
+  .menuDropdown ul {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+  }
+
+  .menuDropdown ul {
+    display: none;
+    position: absolute;
+    background-color: var(--light);
+    color: var(--dark);
+  }
+
+  .menuDropdown:hover ul {
+    display: block;
   }
 
   .hamburger {

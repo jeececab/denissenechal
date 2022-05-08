@@ -1,0 +1,16 @@
+.container {
+  background-color: var(--dark);
+  color: var(--light);
+  padding: 1rem 1rem 5rem;
+  margin-top: 4rem;
+}
+
+.container h2 {
+  margin-bottom: 2rem;
+}
+
+.container p {
+  max-width: 50rem;
+  line-height: 1.4;
+  margin: 0 auto;
+}

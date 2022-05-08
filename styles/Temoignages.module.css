@@ -1,0 +1,27 @@
+.container {
+  margin: 0 auto;
+  max-width: 58rem;
+}
+
+.container h2 {
+  text-transform: uppercase;
+  margin: 2rem 0 0.5rem;
+}
+
+.card {
+  padding: 1rem 3rem 2rem;
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+.card p {
+  line-height: 1.4;
+}
+
+.imageWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 3rem;
+}

@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 70%;
+  margin: 3.5rem auto 0;
+}
+
+.card {
+  cursor: pointer;
+  margin-bottom: 1.75rem;
+}
+
+.card p {
+  text-transform: uppercase;
+}
+
+.cardImage {
+  height: 280px;
+  width: auto;
+}
+
+@media (min-width: 53.75rem) {
+  .container {
+    flex-flow: row;
+    justify-content: space-around;
+  }
+}

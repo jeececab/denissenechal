@@ -1,4 +1,10 @@
 import Head from 'next/head';
+import CovidWarning from '../components/Home/CovidWarning';
+
+import HomeCarousel from '../components/Home/HomeCarousel';
+import SectionA from '../components/Home/SectionA';
+import SectionB from '../components/Home/SectionB';
+import Temoignages from '../components/Home/Temoignages';
 
 export default function Home() {
   return (
@@ -10,7 +16,11 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1>Denis Sénéchal</h1>
+        <HomeCarousel />
+        <SectionA />
+        <SectionB />
+        <Temoignages />
+        <CovidWarning />
       </main>
     </div>
   );

@@ -12,9 +12,9 @@ export default function ServeurGaffeur() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
+      <div className="max-width-container">
         <h1>Corporatif - serveur gaffeur</h1>
-      </main>
+      </div>
     </div>
   );
 }

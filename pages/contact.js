@@ -1,10 +1,10 @@
 import Head from 'next/head';
 
-export default function FauxPolicier() {
+export default function Contact() {
   return (
     <div>
       <Head>
-        <title>Denis Sénéchal - Corporatif - Faux Policier</title>
+        <title>Denis Sénéchal - Contact</title>
         <meta
           name="description"
           content="Comédien professionnel et membre en règle de l’UDA depuis 1987, Denis Sénéchal a cumulé les succès et fait les beaux jours de l’Agence de Divertissement Corporatif Michel Courtemanche et Concepts Signés Johanne Leblanc pendant plus de 15 ans."
@@ -13,7 +13,7 @@ export default function FauxPolicier() {
       </Head>
 
       <div className="max-width-container">
-        <h1>Corporatif - faux policier</h1>
+        <h1>Contact</h1>
       </div>
     </div>
   );

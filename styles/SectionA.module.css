@@ -1,0 +1,41 @@
+.container {
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 72rem;
+}
+
+.container h2 {
+  font-size: 2.8rem;
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, auto));
+}
+
+.card {
+  padding: 2rem 1rem;
+}
+
+.card p {
+  margin: 0;
+  line-height: 1.4;
+}
+
+.card p:first-child {
+  font-family: 'InterSemiBold';
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.card p {
+  font-size: 0.875rem;
+}
+
+.cardText {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  margin-top: 1rem;
+}

@@ -8,12 +8,25 @@
   --content-max-width: 1280px;
 }
 
+@font-face {
+  font-family: 'Inter';
+  src: url('../public/assets/fonts/Inter-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'InterSemiBold';
+  src: url('../public/assets/fonts/Inter-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
-    Helvetica Neue, sans-serif;
+  font-family: 'Inter';
   background-color: var(--light);
 }
 
@@ -24,4 +37,29 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.max-width-container {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+}
+
+.carousel .control-arrow:before,
+.carousel.carousel-slider .control-arrow:before {
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+
+.carousel .control-prev.control-arrow:before {
+  border-right: 10px solid black !important;
+}
+
+.carousel .control-next.control-arrow:before {
+  border-left: 10px solid black !important;
 }

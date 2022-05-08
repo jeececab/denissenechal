@@ -1,0 +1,33 @@
+.container {
+  margin: 5rem auto 0;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  max-width: 70rem;
+}
+
+.text {
+  line-height: 1.4;
+}
+
+.text {
+  padding: 2rem 1rem;
+}
+
+.text p:first-child {
+  margin-top: 0;
+}
+
+
+@media (min-width: 60rem) {
+  .container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    padding-left: 1rem;
+  }
+
+  .text {
+    max-width: 32rem;
+    margin: 0 auto;
+  }
+}
