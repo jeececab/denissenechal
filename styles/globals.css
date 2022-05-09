@@ -45,6 +45,10 @@ h2 {
   text-align: center;
 }
 
+img {
+  max-width: 100%;
+}
+
 .max-width-container {
   max-width: var(--content-max-width);
   margin: 0 auto;

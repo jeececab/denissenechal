@@ -19,10 +19,11 @@ export default function Header() {
   };
 
   return (
-    <div className={styles.container}>
+    <header className={styles.container}>
       <div className={styles.content}>
         <h1>
-          <Link href="/">Denis Sénéchal - Comédien Animateur</Link>
+          <Link href="/">Denis Sénéchal</Link>
+          <Link href="/">- Comédien Animateur</Link>
         </h1>
 
         <div role="button" onClick={handleClick} className={`${styles.hamburger} ${isOpen ? styles.opened : ''}`}>
@@ -60,6 +61,6 @@ export default function Header() {
           </ul>
         </div>
       </div>
-    </div>
+    </header>
   );
 }

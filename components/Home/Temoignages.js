@@ -4,7 +4,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 export default function Temoignages() {
   return (
-    <div className="max-width-container">
+    <>
       <div className={styles.container}>
         <h2>Témoignages</h2>
         <Carousel showThumbs={false} autoPlay infiniteLoop interval={10000}>
@@ -36,10 +36,10 @@ export default function Temoignages() {
             </p>
           </div>
         </Carousel>
+        <div className={styles.imageWrapper}>
+          <img src={'/assets/images/scene.png'} />
+        </div>
       </div>
-      <div className={styles.imageWrapper}>
-        <img src={'/assets/images/scene.png'} />
-      </div>
-    </div>
+    </>
   );
 }

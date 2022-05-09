@@ -25,7 +25,7 @@
     grid-template-columns: auto 1fr;
     padding-left: 1rem;
   }
-
+  
   .text {
     max-width: 32rem;
     margin: 0 auto;

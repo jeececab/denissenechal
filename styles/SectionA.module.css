@@ -11,7 +11,7 @@
 
 .cardContainer {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(12rem, auto));
+  grid-template-columns: repeat(auto-fit, minmax(13rem, auto));
 }
 
 .card {

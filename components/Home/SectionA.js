@@ -36,11 +36,10 @@ export default function SectionA() {
           <div className={styles.cardText}>
             <p>Professionnel</p>
             <p>
-              Toujours à votre
+              À l&apos;écoute des <br />
+              besoins du
               <br />
-              écoute tout en
-              <br />
-              s&apos;adaptant à vos besoins
+              client
             </p>
           </div>
         </div>

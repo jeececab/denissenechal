@@ -25,6 +25,10 @@
   font-weight: normal;
 }
 
+.container h1 a:nth-child(2) {
+  display: none;
+}
+
 .menu {
   background-color: var(--light);
   position: absolute;
@@ -62,7 +66,7 @@
 }
 
 .menu a:hover,
-.active {
+.active > a {
   background-color: var(--dark);
   color: var(--light);
 }
@@ -71,6 +75,7 @@
   cursor: pointer;
   width: 2.5rem;
   z-index: 101;
+  margin-right: 0.5rem;
 }
 
 .hamburger div {
@@ -95,9 +100,9 @@
   bottom: 6px;
 }
 
-@media (max-width: 24.5rem) {
-  .container h1 {
-    font-size: 0.875rem;
+@media (min-width: 30rem) {
+  .container h1 a:nth-child(2) {
+    display: inline;
   }
 }
 

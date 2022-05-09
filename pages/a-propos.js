@@ -1,18 +1,15 @@
 import styles from '../styles/APropos.module.css';
-import Head from 'next/head';
+import Head from '../components/Head';
 
 export default function APropos() {
   return (
     <>
-      <Head>
-        <title>Denis Sénéchal - À propos</title>
-        <meta
-          name="description"
-          content="Comédien professionnel et membre en règle de l’UDA depuis 1987, Denis Sénéchal a cumulé les succès et fait les beaux jours de l’Agence de Divertissement Corporatif Michel Courtemanche et Concepts Signés Johanne Leblanc pendant plus de 15 ans."
-        />
-        <link rel="icon" href="/favicon.ico" />
-        <meta name="viewport" content="initial-scale=1.0, width=device-width"></meta>
-      </Head>
+      <Head
+        title={'Denis Sénéchal -  À propos'}
+        description={
+          'Comédien professionnel et membre en règle de l’UDA depuis 1987, Denis Sénéchal a cumulé les succès et fait les beaux jours de l’Agence de Divertissement Corporatif Michel Courtemanche et Concepts Signés Johanne Leblanc pendant plus de 15 ans.'
+        }
+      />
 
       <div className={styles.container}>
         <img src={'/assets/images/headshot.png'} />
