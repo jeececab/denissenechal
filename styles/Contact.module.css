@@ -2,7 +2,6 @@
   background-color: var(--dark);
   color: var(--light);
   padding-bottom: 8rem;
-  height: 100%;
 }
 
 .content {
@@ -56,6 +55,9 @@
 }
 
 @media (min-width: 60rem) {
+  .container {
+    height: calc(100vh - 3rem);
+  }
   .content {
     display: grid;
     grid-template-columns: 1fr 1fr;

@@ -52,6 +52,7 @@ img {
 input,
 textarea {
   font-size: 1rem;
+  font-family: 'Inter';
   padding: 0.25rem;
   background-color: var(--light);
 }
@@ -60,6 +61,7 @@ textarea {
   resize: vertical;
   width: 100% !important;
   height: 14rem !important;
+  line-height: 1.4;
 }
 
 button {
