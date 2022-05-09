@@ -1,8 +1,4 @@
-import Image from 'next/image';
 import styles from '../../styles/SectionA.module.css';
-import droleIcon from '../../public/assets/images/drole-icon.png';
-import vifIcon from '../../public/assets/images/vif-icon.png';
-import proIcon from '../../public/assets/images/pro-icon.png';
 
 export default function SectionA() {
   return (
@@ -10,7 +6,7 @@ export default function SectionA() {
       <h2>« Désopilant »</h2>
       <div className={styles.cardContainer}>
         <div className={styles.card}>
-          <Image src={droleIcon} />
+          <img src={'/assets/images/drole-icon.png'} />
           <div className={styles.cardText}>
             <p>Drôle</p>
             <p>
@@ -23,9 +19,9 @@ export default function SectionA() {
           </div>
         </div>
         <div className={styles.card}>
-          <Image src={vifIcon} />
+          <img src={'/assets/images/vif-icon.png'} />
           <div className={styles.cardText}>
-            <p>Vif d'esprit</p>
+            <p>Vif d&apos;esprit</p>
             <p>
               Un sens de la
               <br />
@@ -36,7 +32,7 @@ export default function SectionA() {
           </div>
         </div>
         <div className={styles.card}>
-          <Image src={proIcon} />
+          <img src={'/assets/images/pro-icon.png'} />
           <div className={styles.cardText}>
             <p>Professionnel</p>
             <p>
@@ -44,7 +40,7 @@ export default function SectionA() {
               <br />
               écoute tout en
               <br />
-              s'adaptant à vos besoins
+              s&apos;adaptant à vos besoins
             </p>
           </div>
         </div>

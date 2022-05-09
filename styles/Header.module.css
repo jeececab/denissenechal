@@ -14,9 +14,6 @@
   align-items: center;
   justify-content: space-between;
   padding-left: 1rem;
-  /* border-bottom: 2px solid var(--dark);
-  border-left: 2px solid var(--dark);
-  border-right: 2px solid var(--dark); */
 }
 
 .container h1 {

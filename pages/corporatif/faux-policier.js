@@ -1,8 +1,5 @@
 import styles from '../../styles/FauxPolicier.module.css';
 import Head from 'next/head';
-import Image from 'next/image';
-import golf2 from '../../public/assets/images/golf-2.png';
-import silPolicier from '../../public/assets/images/sil-policier.png';
 
 export default function FauxPolicier() {
   return (
@@ -14,13 +11,14 @@ export default function FauxPolicier() {
           content="Comédien professionnel et membre en règle de l’UDA depuis 1987, Denis Sénéchal a cumulé les succès et fait les beaux jours de l’Agence de Divertissement Corporatif Michel Courtemanche et Concepts Signés Johanne Leblanc pendant plus de 15 ans."
         />
         <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width"></meta>
       </Head>
 
       <div className={`${styles.container} max-width-container`}>
         <h2>Le faux policier</h2>
 
         <div className={styles.description}>
-          <Image src={golf2} />
+          <img src={'/assets/images/golf-2.png'} />
           <p>
             Embusqué dans son cart d’officier et flanqué de son séchoir à cheveux qui lui sert de radar, le Sergent Ray
             Tracy intercepte les voiturettes et remet de fausses contraventions aux occupants médusés. Détente assurée
@@ -54,7 +52,7 @@ export default function FauxPolicier() {
             </p>
           </div>
 
-          <Image src={silPolicier} />
+          <img src={'/assets/images/sil-policier.png'} />
         </div>
       </div>
     </>

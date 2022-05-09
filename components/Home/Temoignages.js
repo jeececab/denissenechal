@@ -1,8 +1,6 @@
 import styles from '../../styles/Temoignages.module.css';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import Image from 'next/image';
-import scene from '../../public/assets/images/scene.png';
 
 export default function Temoignages() {
   return (
@@ -13,8 +11,8 @@ export default function Temoignages() {
           <div className={styles.card}>
             <p>
               « Laissez-moi vous dire que toute notre clientèle était agréablement surprise de rencontrer ce drôle de
-              policier hurluberlu. Sa performance pour la soirée d'animation n'a récolté que des éloges : professionnel,
-              rapide, compréhensif. »<br />
+              policier hurluberlu. Sa performance pour la soirée d&apos;animation n&apos;a récolté que des éloges :
+              professionnel, rapide, compréhensif. »<br />
               <br />
               Manon
             </p>
@@ -30,7 +28,7 @@ export default function Temoignages() {
           <div className={styles.card}>
             <p>
               « Notre équipe a beaucoup apprécié le numéro du serveur maladroit et ses nombreuses gaffes ! Il a vraiment
-              réussi à créer une ambiance incroyable pour notre soirée. Nous n'hésiterons pas à le recommander à
+              réussi à créer une ambiance incroyable pour notre soirée. Nous n&apos;hésiterons pas à le recommander à
               quiconque voulant amener un brin de folie à leur évènement. »
               <br />
               <br />
@@ -40,7 +38,7 @@ export default function Temoignages() {
         </Carousel>
       </div>
       <div className={styles.imageWrapper}>
-        <Image src={scene} />
+        <img src={'/assets/images/scene.png'} />
       </div>
     </div>
   );
