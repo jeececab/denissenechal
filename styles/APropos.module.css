@@ -4,6 +4,7 @@
   flex-flow: column;
   align-items: center;
   max-width: 70rem;
+  padding-bottom: 8rem;
 }
 
 .text {

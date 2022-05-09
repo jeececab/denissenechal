@@ -49,6 +49,32 @@ img {
   max-width: 100%;
 }
 
+input,
+textarea {
+  font-size: 1rem;
+  padding: 0.25rem;
+  background-color: var(--light);
+}
+
+textarea {
+  resize: vertical;
+  width: 100% !important;
+  height: 14rem !important;
+}
+
+button {
+  font-size: 1.3rem;
+  font-family: 'Inter';
+  text-transform: uppercase;
+  background-color: var(--primary-color);
+  color: var(--light);
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: inherit;
+  padding: 0.5rem 2rem;
+}
+
 .max-width-container {
   max-width: var(--content-max-width);
   margin: 0 auto;
