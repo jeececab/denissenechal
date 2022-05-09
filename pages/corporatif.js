@@ -12,7 +12,7 @@ export default function Corporatif() {
       />
 
       <div className="max-width-container">
-        <div style={{ marginTop: '10rem', marginBottom: '8rem' }}>
+      <div style={{ marginTop: '6rem', marginBottom: '8rem' }}>
           <SectionB />
         </div>
       </div>
