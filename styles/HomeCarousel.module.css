@@ -1,0 +1,16 @@
+.image img:nth-child(1) {
+  display: block;
+}
+
+.image img:nth-child(2) {
+  display: none;
+}
+
+@media (min-width: 50rem) {
+  .image img:nth-child(1) {
+    display: none;
+  }
+  .image img:nth-child(2) {
+    display: block;
+  }
+}
