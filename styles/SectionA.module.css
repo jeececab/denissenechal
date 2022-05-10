@@ -22,6 +22,11 @@
   padding: 2rem 1rem;
 }
 
+.image {
+  margin: 0 auto;
+  width: 4rem;
+}
+
 .card p {
   margin: 0;
   line-height: 1.4;

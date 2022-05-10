@@ -16,8 +16,16 @@
   align-items: center;
 }
 
+.infoImage {
+  max-width: 25rem;
+}
+
 .tagLine {
   margin: 5rem 0;
+}
+
+.tagLineImage {
+  max-width: 18rem;
 }
 
 .container .tagLine {
@@ -25,7 +33,8 @@
   text-align: center;
 }
 
-.tagLine2 img {
+.tagLine2Image {
+  max-width: 30rem;
   order: 2;
 }
 
@@ -69,7 +78,7 @@
     grid-template-columns: 1fr auto;
   }
 
-  .tagLine2 img {
+  .tagLine2Image {
     order: 0;
   }
 

@@ -15,7 +15,9 @@ export default function FauxPolicier() {
         <h2>Le faux policier</h2>
 
         <div className={styles.description}>
-          <img src={'/assets/images/golf-2.png'} />
+          <div className={styles.golfImage}>
+            <img src={'/assets/images/golf-2.png'} />
+          </div>
           <p>
             Embusqué dans son cart d’officier et flanqué de son séchoir à cheveux qui lui sert de radar, le Sergent Ray
             Tracy intercepte les voiturettes et remet de fausses contraventions aux occupants médusés. Détente assurée
@@ -49,7 +51,9 @@ export default function FauxPolicier() {
             </p>
           </div>
 
-          <img src={'/assets/images/sil-policier.png'} />
+          <div className={styles.infoImage}>
+            <img src={'/assets/images/sil-policier.png'} />
+          </div>
         </div>
       </div>
     </>

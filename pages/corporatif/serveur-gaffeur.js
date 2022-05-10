@@ -15,20 +15,26 @@ export default function ServeurGaffeur() {
         <h2>Le serveur gaffeur</h2>
 
         <div className={styles.info}>
-          <img src="/assets/images/serveur-2.png" />
+          <div className={styles.infoImage}>
+            <img src="/assets/images/serveur-2.png" />
+          </div>
           <p>
             Dissimulé parmi le personnel en salle, le serveur Hervé Plante additionne les maladresses mais multiplie les
             prouesses pour égayer vos clients. D&apos;une redoutable efficacité, il s&apos;inscrit dans la tradition des
-            Clouzot, Pierre Richard et Olivier Guimond. En faisant appel au Serveur Gaffeur, vous êtes assuré de marquer
-            l&apos;imaginaire de vos employés.es. en les faisant rire aux éclats!
+            Clouzot, Pierre Richard et Olivier Guimond. En faisant appel au Serveur Gaffeur, vous êtes assurés de
+            marquer l&apos;imaginaire de vos employés.es. en les faisant rire aux éclats!
           </p>
         </div>
         <div className={styles.tagLine1}>
           <h2 className={styles.tagLine}>Du cocktail au dessert, il devient...UNE VÉRITABLE CATASTROPHE AMBULANTE !</h2>
-          <img src="/assets/images/sil-serveur.png" />
+          <div className={styles.tagLineImage}>
+            <img src="/assets/images/sil-serveur.png" />
+          </div>
         </div>
         <div className={styles.tagLine2}>
-          <img src="/assets/images/serveur-3.png" />
+          <div className={styles.tagLine2Image}>
+            <img src="/assets/images/serveur-3.png" />
+          </div>
           <h2 className={styles.tagLine}>QUAND LES MALHEURS DE L&apos;UN FONT LE DÉLICE DES AUTRES…!</h2>
         </div>
       </div>

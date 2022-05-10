@@ -12,7 +12,9 @@ export default function APropos() {
       />
 
       <div className={styles.container}>
-        <img src={'/assets/images/headshot.png'} />
+        <div className={styles.image}>
+          <img src={'/assets/images/headshot.jpg'} />
+        </div>
         <div className={styles.text}>
           <p>
             Comédien professionnel et membre en règle de l’UDA depuis 1987, Denis Sénéchal a cumulé les succès et fait

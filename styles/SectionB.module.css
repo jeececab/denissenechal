@@ -11,6 +11,11 @@
   margin-bottom: 1.75rem;
 }
 
+.image {
+  width: 100%;
+  max-width: 25rem;
+}
+
 .card p {
   text-transform: uppercase;
 }
@@ -24,5 +29,9 @@
   .container {
     flex-flow: row;
     justify-content: space-around;
+  }
+
+  .image {
+    max-width: 18rem;
   }
 }

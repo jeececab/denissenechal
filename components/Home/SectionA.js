@@ -6,7 +6,9 @@ export default function SectionA() {
       <h1>Divertissement corporatif pour tournois de golf et autres événements</h1>
       <div className={styles.cardContainer}>
         <div className={styles.card}>
-          <img src={'/assets/images/drole-icon.png'} />
+          <div className={styles.image}>
+            <img src={'/assets/images/drole-icon.png'} />
+          </div>
           <div className={styles.cardText}>
             <p>Drôle</p>
             <p>
@@ -19,7 +21,9 @@ export default function SectionA() {
           </div>
         </div>
         <div className={styles.card}>
-          <img src={'/assets/images/vif-icon.png'} />
+          <div className={styles.image}>
+            <img src={'/assets/images/vif-icon.png'} />
+          </div>
           <div className={styles.cardText}>
             <p>Vif d&apos;esprit</p>
             <p>
@@ -32,7 +36,9 @@ export default function SectionA() {
           </div>
         </div>
         <div className={styles.card}>
-          <img src={'/assets/images/pro-icon.png'} />
+          <div className={styles.image}>
+            <img src={'/assets/images/pro-icon.png'} />
+          </div>
           <div className={styles.cardText}>
             <p>Professionnel</p>
             <p>

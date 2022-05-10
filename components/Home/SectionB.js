@@ -6,14 +6,18 @@ export default function SectionB() {
     <div className={`${styles.container} max-width-container`}>
       <Link href="/corporatif/faux-policier">
         <div className={styles.card}>
-          <img src={'/assets/images/policier-portrait.png'} />
+          <div className={styles.image}>
+            <img src={'/assets/images/policier-portrait.png'} />
+          </div>
 
           <p>Le faux policier</p>
         </div>
       </Link>
       <Link href="/corporatif/serveur-gaffeur">
         <div className={styles.card}>
-          <img src={'/assets/images/serveur-portrait.png'} />
+          <div className={styles.image}>
+            <img src={'/assets/images/serveur-portrait.png'} />
+          </div>
 
           <p>Le serveur gaffeur</p>
         </div>

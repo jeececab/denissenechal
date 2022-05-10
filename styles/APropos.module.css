@@ -19,16 +19,21 @@
   margin-top: 0;
 }
 
+.image {
+  max-width: 25rem;
+}
 
 @media (min-width: 60rem) {
   .container {
     display: grid;
     grid-template-columns: auto 1fr;
+    align-items: start;
     padding-left: 1rem;
   }
   
   .text {
     max-width: 32rem;
     margin: 0 auto;
+    padding-top: 0;
   }
 }

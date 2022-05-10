@@ -36,7 +36,7 @@ export default function Temoignages() {
             </p>
           </div>
         </Carousel>
-        <div className={styles.imageWrapper}>
+        <div className={styles.image}>
           <img src={'/assets/images/scene.png'} />
         </div>
       </div>
