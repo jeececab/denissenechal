@@ -5,7 +5,7 @@ export default function Contact() {
   return (
     <>
       <Head
-        title={'Denis Sénéchal - Contact'}
+        title={'Denis Sénéchal - Divertissement corporatif pour tournois de golf et autres événements.'}
         description={
           'Comédien professionnel et membre en règle de l’UDA depuis 1987, Denis Sénéchal a cumulé les succès et fait les beaux jours de l’Agence de Divertissement Corporatif Michel Courtemanche et Concepts Signés Johanne Leblanc pendant plus de 15 ans.'
         }
@@ -22,7 +22,7 @@ export default function Contact() {
           </div>
 
           <form className={styles.form} name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-            <h2>Formulaire</h2>
+            <h2>Soumission gratuite</h2>
             <input type="hidden" name="form-name" value="contact" />
             <p>
               <label htmlFor="name">
@@ -50,7 +50,7 @@ export default function Contact() {
             </p>
             <p>
               <label htmlFor="message">
-                <span>Message</span>
+                <span>Détails de la demande</span>
                 <textarea id="message" name="message" required></textarea>
               </label>
             </p>

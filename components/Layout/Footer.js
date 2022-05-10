@@ -8,7 +8,7 @@ export default function Footer() {
     <footer className={`${styles.container} ${router.pathname === '/contact' ? styles.invert : ''}`}>
       <div className={styles.content}>
         <span>
-          Denis Sénéchal<span> - Comédien Animateur</span>
+          <span>Denis Sénéchal - </span>Comédien Animateur
         </span>
         <span>© 2022</span>
       </div>

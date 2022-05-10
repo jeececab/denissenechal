@@ -3,7 +3,7 @@ import styles from '../../styles/SectionA.module.css';
 export default function SectionA() {
   return (
     <div className={`${styles.container} max-width-container`}>
-      <h2>« Désopilant »</h2>
+      <h1>Divertissement corporatif pour tournois de golf et autres événements</h1>
       <div className={styles.cardContainer}>
         <div className={styles.card}>
           <img src={'/assets/images/drole-icon.png'} />

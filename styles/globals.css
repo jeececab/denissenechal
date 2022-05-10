@@ -60,7 +60,7 @@ textarea {
 textarea {
   resize: vertical;
   width: 100% !important;
-  height: 14rem !important;
+  min-height: 14rem !important;
   line-height: 1.4;
 }
 

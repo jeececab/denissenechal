@@ -5,8 +5,12 @@
   max-width: 72rem;
 }
 
-.container h2 {
-  font-size: 2.8rem;
+.container h1 {
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin: 5rem auto 2rem;
+  max-width: 40rem;
+  padding: 0 0.75rem;
 }
 
 .cardContainer {

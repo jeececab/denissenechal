@@ -5,7 +5,7 @@ export default function ServeurGaffeur() {
   return (
     <>
       <Head
-        title={'Denis Sénéchal - Corporatif - Serveur Gaffeur'}
+        title={'Denis Sénéchal - Divertissement corporatif pour tournois de golf et autres événements.'}
         description={
           'Comédien professionnel et membre en règle de l’UDA depuis 1987, Denis Sénéchal a cumulé les succès et fait les beaux jours de l’Agence de Divertissement Corporatif Michel Courtemanche et Concepts Signés Johanne Leblanc pendant plus de 15 ans.'
         }
@@ -18,7 +18,7 @@ export default function ServeurGaffeur() {
           <img src="/assets/images/serveur-2.png" />
           <p>
             Dissimulé parmi le personnel en salle, le serveur Hervé Plante additionne les maladresses mais multiplie les
-            prouesses pour égayer vos clients. D&apos;une redoutable efficacité, il &apos;inscrit dans la tradition des
+            prouesses pour égayer vos clients. D&apos;une redoutable efficacité, il s&apos;inscrit dans la tradition des
             Clouzot, Pierre Richard et Olivier Guimond. En faisant appel au Serveur Gaffeur, vous êtes assuré de marquer
             l&apos;imaginaire de vos employés.es. en les faisant rire aux éclats!
           </p>
@@ -29,7 +29,7 @@ export default function ServeurGaffeur() {
         </div>
         <div className={styles.tagLine2}>
           <img src="/assets/images/serveur-3.png" />
-          <h2 className={styles.tagLine}>QUAND LES MALHEURSDE L&apos;UN FONT LE DÉLICE DES AUTRES…!</h2>
+          <h2 className={styles.tagLine}>QUAND LES MALHEURS DE L&apos;UN FONT LE DÉLICE DES AUTRES…!</h2>
         </div>
       </div>
     </>
