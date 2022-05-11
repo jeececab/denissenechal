@@ -1,6 +1,6 @@
 import _Head from 'next/head';
 
-export default function Head({ title, description }) {
+export default function Head() {
   return (
     <_Head>
       <meta charset="utf-8"></meta>
@@ -12,10 +12,16 @@ export default function Head({ title, description }) {
       <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png"></link>
       <link rel="manifest" href="assets/favicon/site.webmanifest"></link>
 
-      <title>{title}</title>
-      <meta name="description" content={description} />
+      <title>Denis Sénéchal - Divertissement corporatif pour tournois de golf et autres événements.</title>
+      <meta
+        name="description"
+        content="Service d’animation et divertissement pour événements corporatifs, tournois de golf, mariages, party de bureau, soirées cocktails, etc. Grand Montréal, Laval, Laurentides, Rive-Sud, Montérégie, Estrie, Québec."
+      />
 
-      <meta property="og:title" content="Denis Sénéchal - Divertissement corporatif pour tournois de golf et autres événements." />
+      <meta
+        property="og:title"
+        content="Denis Sénéchal - Divertissement corporatif pour tournois de golf et autres événements."
+      />
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://www.animationdenissenechal.com" />
       <meta property="og:image" content="assets/images/golf.png" />

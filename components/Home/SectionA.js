@@ -27,11 +27,11 @@ export default function SectionA() {
           <div className={styles.cardText}>
             <p>Vif d&apos;esprit</p>
             <p>
-              Un sens de la
+              S&apos;adapte à
               <br />
-              répartie
+              toutes les
               <br />
-              incroyable
+              situations
             </p>
           </div>
         </div>

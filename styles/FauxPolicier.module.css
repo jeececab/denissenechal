@@ -25,8 +25,9 @@
   max-width: 31rem;
 }
 
-.tagLine {
+.container .tagLine {
   margin: 4.5rem auto 5.5rem;
+  text-align: center;
 }
 
 .videoWrapper {

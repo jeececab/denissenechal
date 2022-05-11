@@ -7,7 +7,7 @@ export default function Temoignages() {
     <>
       <div className={styles.container}>
         <h2>Témoignages</h2>
-        <Carousel showThumbs={false} autoPlay infiniteLoop interval={10000}>
+        <Carousel showThumbs={false} autoPlay infiniteLoop interval={15000}>
           <div className={styles.card}>
             <p>
               « Laissez-moi vous dire que toute notre clientèle était agréablement surprise de rencontrer ce drôle de

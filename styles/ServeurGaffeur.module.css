@@ -41,6 +41,9 @@
 .info p {
   line-height: 1.4;
   padding: 0 1rem;
+}
+
+.info p:first-child {
   margin-top: 2rem;
 }
 
@@ -70,8 +73,11 @@
   }
 
   .info p {
-    margin-top: 0;
     max-width: 30rem;
+  }
+
+  .info p:first-child {
+    margin-top: 0;
   }
 
   .tagLine1 {
