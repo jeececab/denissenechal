@@ -13,7 +13,7 @@ export default function APropos() {
         <div className={styles.text}>
           <p>
             Comédien professionnel et membre en règle de l’UDA depuis 1987, Denis Sénéchal a cumulé les succès et fait
-            les beaux jours de l’Agence de Divertissement Corporatif Michel Courtemanche et Concepts Signés Johanne
+            les beaux jours de l’Agence de Divertissements corporatifs Michel Courtemanche et Concepts Signés Johanne
             Leblanc pendant plus de 15 ans. Ayant à son actif plus de 3000 représentations, il comprend les besoins des
             responsables et collabore avec ceux-ci de manière à faire de leurs événements un succès assuré.
           </p>
