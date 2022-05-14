@@ -62,6 +62,6 @@
 }
 .tagLine2 {
   font-size: 1rem;
-  text-align: right;
   margin: 1.5rem auto 6rem;
+  max-width: 30rem;
 }

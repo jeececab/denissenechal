@@ -54,9 +54,7 @@ export default function SectionA() {
         « Je recommande fortement et sans hésitations Denis Sénéchal. Succès garanti! »
       </h2>
       <h2 className={styles.tagLine2}>
-        Michel Courtemanche,
-        <br />
-        Divertissements corporatifs et Salon Événementiel Momentum
+        Michel Courtemanche des Divertissements corporatifs et Salon Événementiel Momentum
       </h2>
     </div>
   );
