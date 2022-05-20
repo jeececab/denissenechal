@@ -130,3 +130,8 @@
     margin-top: 0;
   }
 }
+
+.image {
+  margin: 6rem auto 0;
+  max-width: 38rem;
+}

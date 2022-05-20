@@ -52,6 +52,9 @@ export default function FauxPolicier() {
             <img src={'/assets/images/sil-policier.png'} />
           </div>
         </div>
+        <div className={styles.image}>
+          <img src={'/assets/images/po.jpg'} />
+        </div>
       </div>
     </>
   );
