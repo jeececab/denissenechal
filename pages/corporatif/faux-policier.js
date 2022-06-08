@@ -35,7 +35,7 @@ export default function FauxPolicier() {
           />
         </div>
 
-        <h2 className={styles.tagLine}>« Un sens de la répartie incroyable! »</h2>
+        <h2 className={styles.tagLine}>«Désopilant... Un sens de la répartie incroyable! »</h2>
 
         <div className={styles.info}>
           <div className={styles.infoText}>
