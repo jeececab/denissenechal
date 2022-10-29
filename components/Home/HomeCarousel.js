@@ -7,12 +7,12 @@ export default function HomeCarousel() {
     <div className="max-width-container">
       <Carousel showThumbs={false} autoPlay infiniteLoop interval={5000}>
         <div className={styles.image}>
-          <img src="/assets/images/golf-mobile.png" />
-          <img src="/assets/images/golf.png" />
-        </div>
-        <div className={styles.image}>
           <img src="/assets/images/serveur-mobile.png" />
           <img src="/assets/images/serveur.png" />
+        </div>
+        <div className={styles.image}>
+          <img src="/assets/images/golf-mobile.png" />
+          <img src="/assets/images/golf.png" />
         </div>
       </Carousel>
     </div>
