@@ -24,7 +24,7 @@ export default function Head() {
       <meta
         name="keywords"
         lang="fr"
-        content="animation, divertissement, corporatif, mariage, party de bureau, Montréal"
+        content="animation , divertissement , corporatif , mariage , party de bureau , Montréal , drôle , humour"
       />
 
       <meta
