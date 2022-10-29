@@ -12,19 +12,30 @@ export default function Head() {
       <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png"></link>
       <link rel="manifest" href="assets/favicon/site.webmanifest"></link>
 
-      <title>Denis Sénéchal - Divertissement corporatif pour tournois de golf et autres événements.</title>
+      <title>
+        Denis Sénéchal - Divertissement corporatif pour vos événements des fêtes / congrès / tournois de golf.
+      </title>
       <meta
         name="description"
+        lang="fr"
         content="Service d’animation et divertissement pour événements corporatifs, tournois de golf, mariages, party de bureau, soirées cocktails, etc. Grand Montréal, Laval, Laurentides, Rive-Sud, Montérégie, Estrie, Québec."
       />
 
       <meta
+        name="keywords"
+        lang="fr"
+        content="animation, divertissement, corporatif, mariage, party de bureau, Montréal"
+      />
+
+      <meta
         property="og:title"
-        content="Denis Sénéchal - Divertissement corporatif pour tournois de golf et autres événements."
+        content="Denis Sénéchal - Divertissement corporatif pour vos événements des fêtes / congrès / tournois de golf."
       />
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://www.animationdenissenechal.com" />
-      <meta property="og:image" content="assets/images/golf.png" />
+      <meta property="og:image" content="assets/images/serveur-mobile.png" />
+
+      <meta name="robots" content="Index, Follow, noodp"></meta>
     </_Head>
   );
 }
