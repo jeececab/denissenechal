@@ -29,7 +29,7 @@ export default function Head() {
 
       <meta
         property="og:title"
-        content="Denis Sénéchal - Divertissement corporatif pour vos événements des fêtes / congrès / tournois de golf."
+        content="Denis Sénéchal - Divertissement corporatif pour vos événements des fêtes / congrès / tournois de golf / etc."
       />
       <meta property="og:type" content="website" />
       <meta property="og:url" content="https://www.animationdenissenechal.com" />
